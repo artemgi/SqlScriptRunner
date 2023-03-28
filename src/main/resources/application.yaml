@@ -1,0 +1,15 @@
+spring:
+  liquibase:
+    enabled: true
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgr
+    username: root
+    password: '123'
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+

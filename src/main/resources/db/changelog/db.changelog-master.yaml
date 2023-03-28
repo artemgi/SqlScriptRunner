@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/filling-client.sql
+  - include:
+      file: db/changelog/changeset/filling-product.sql
+  - include:
+      file: db/changelog/changeset/filling-rating.sql
